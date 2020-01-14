@@ -63,6 +63,16 @@ module.exports = {
             {
                 test: /\.vue$/,
                 use: ['vue-loader']
+            },
+            {
+                test: /(\.css|\.less)$/,
+                use: {
+                    loader: 'px2rem-loader',
+                    options: {
+                        remUni: 75,
+                        remPrecision: 8
+                    }
+                }
             }
         ]
     }

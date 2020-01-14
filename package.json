@@ -25,6 +25,9 @@
         "@babel/core": "^7.8.0",
         "@babel/preset-env": "^7.8.2",
         "babel-loader": "^8.0.0-beta.0",
+        "less": "^3.10.3",
+        "lib-flexible": "^0.3.2",
+        "px2rem-loader": "^0.1.9",
         "vue": "^2.6.11",
         "vue-template-compiler": "^2.6.11"
     }
